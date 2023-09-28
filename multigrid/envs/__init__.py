@@ -208,7 +208,7 @@ CONFIGURATIONS = {
                     "invalid_pickup_dense_penalty": 0.001,
                 },
             },
-            "randomization": True,
+            "randomization": False,
         },
     ),
     "MultiGrid-CompetativeRedBlueDoor-v3-CTCE-Red-Eval": (
@@ -310,7 +310,7 @@ CONFIGURATIONS = {
             "training_scheme": "DTDE",
             "reward_schemes": {
                 "red_0": {
-                    "eliminated_opponent_sparse_reward": 0.5,
+                    "eliminated_opponent_sparse_reward": 0.8,
                     "key_pickup_sparse_reward": 0.5,
                     "ball_pickup_dense_reward": 0.5,
                     "dense_reward_discount_factor": {"ball_carrying_discount_factor": 0.9},

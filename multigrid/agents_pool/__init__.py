@@ -1,7 +1,7 @@
-from multigrid.agents_pool.YourName_policies.YourPolicyName_policy_v2 import YourPolicyNameV2_Policy
-from multigrid.agents_pool.YourName_policies.YourPolicyName_policy import YourPolicyName_Policy
+from multigrid.agents_pool.Blather_policies.Blather_policy_v2 import BlatherV2_Policy
+from multigrid.agents_pool.Blather_policies.Blather_policy import Blather_Policy
 
 SubmissionPolicies = {
-    "your_policy_name": YourPolicyName_Policy,
-    "your_policy_name_v2": YourPolicyNameV2_Policy,
+    "blather_policy": Blather_Policy,
+    "blather_policy_v2": BlatherV2_Policy,
 }
